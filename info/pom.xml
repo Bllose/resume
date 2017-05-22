@@ -37,18 +37,20 @@
 			<scope>test</scope>
 		</dependency>
 
+<!-- 	仓库中没有提供注解功能，tomcat中servlet-api包含此功能	
+		但是手动添加的build path， maven编译不认
+		需要学习建立本地仓库，通过本地仓库进行加载
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>servlet-api</artifactId>
+		  <version>3.0-alpha-1</version>
 		</dependency>
-
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
-			<classifier>sources</classifier>
-		</dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>servlet-api</artifactId>
+		  <version>3.0-alpha-1</version>
+		  <classifier>sources</classifier>
+		</dependency> -->
 	</dependencies>
 
 
